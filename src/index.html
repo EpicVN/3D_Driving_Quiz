@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Test Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="progress-bar-container">
+        <label for="progress-bar">Loading...</label>
+        <progress id="progress-bar" value="0" max="100"></progress>
+    </section>
+
+    <p class="score">Điểm: <span>0</span> / 10</p>
+
+    <button id="toggleButton"><i id="volumeIcon" class="fa-solid fa-volume-high"></i></button>
+
+    <section class="header">
+        <h1>DRVING TEST QUIZ</h1>
+        <button>START</button>
+    </section>
+
+    <section class="questions">
+        <p>Q1: Các phương tiện sẽ di chuyển theo thứ tự nào ?</p>
+        <ul>
+            <li id="option1"><span id="a1-text">Xanh, vàng, đỏ</span> <span id="a1-symbol"></span></li>
+            <li id="option2"><span id="a2-text">Đỏ, vàng, xanh</span> <span id="a2-symbol"></span></li>
+            <li id="option3"><span id="a3-text">Đỏ, xanh, vàng</span> <span id="a3-symbol"></span></li>
+        </ul>
+    </section>
+
+    <section class="explanation">
+        <button>Tiếp theo</button>
+        <div class="text-wrapper">
+            <p>
+                Giải thích
+            </p>
+        </div>
+    </section>
+    <script src="./js/scripts.js" type="module"></script>
+</body>
+</html>
