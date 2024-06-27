@@ -1,14 +1,14 @@
 {
-  "name": "threeboilerplate",
+  "name": "3D_Driving_Quiz",
   "version": "1.0.0",
-  "description": "The Three.js boilerplate that I'm using in my Tutorials.",
+  "description": "CS105",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "Wael Yasmina",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "gsap": "^3.12.5",
